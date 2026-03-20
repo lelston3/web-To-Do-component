@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet Final - Gestionnaire de Tâches Avancé</title>
+    <script type="module" src="task-manager.js"></script>
+    <script type="module" src="info-box.js"></script>
+    <script type="module" src="status-indicator.js"></script>
+    <script type="module" src="reset-button.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 30px;
+        }
+
+        /* Styles pour le bouton de réinitialisation externe */
+        reset-button {
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mon Projet Final : Gestionnaire de Tâches avec Composants Réutilisés</h1>
+
+    <task-manager>
+        <h3 slot="header">Ma liste de tâches quotidiennes</h3>
+        <p slot="footer">Gérez vos tâches efficacement !</p>
+    </task-manager>
+
+    <task-manager>
+        <h3 slot="header">Tâches du Projet</h3>
+        <p slot="footer">Ne laissez rien passer.</p>
+    </task-manager>
+
+    <reset-button></reset-button>
+
+</body>
+</html>
