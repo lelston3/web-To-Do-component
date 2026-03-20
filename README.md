@@ -70,5 +70,3 @@ L'intégration de vos composants des TP dans ce projet final met en lumière des
 Lit facilite cette composition en fournissant une syntaxe élégante et performante pour le rendu conditionnel (affichage de `info-box` uniquement quand `message` existe) et la gestion des propriétés, rendant l'intégration des composants tiers encore plus simple.
 
 ---
-
-N'hésitez pas si vous avez d'autres questions ou si vous voulez affiner un aspect !
